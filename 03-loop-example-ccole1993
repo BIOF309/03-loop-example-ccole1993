@@ -1,0 +1,5 @@
+Ravens_record = ["W", "W", "L", "L", "W", "L", "L", "W"]
+Ravens_attendance = [55254, 70605, 84592, 71126, 54980, 70616, 66751, 70408]
+for a,b in zip(Ravens_attendance, Ravens_record):
+    print("Attendance and whether they lost that game", a,b)
+print("The Baltimore Ravens are now", Ravens_record.count("W"), "and", Ravens_record.count("L"))
